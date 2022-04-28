@@ -1,0 +1,5 @@
+TABLE^users
+COLUMN^id^int
+COLUMN^name^string
+RELATION^one users have many user_accounts
+RELATION^one category belongs_to many users

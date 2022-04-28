@@ -1,0 +1,11 @@
+****************************************************Entity Relationship Diagram for database TESTDB2****************************************************
+
+Total number of relations/tables in the database TESTDB2 = 1
+
+TABLE NAME: TEST_TABLE_3 :: COLUMN_NAME_1 : cln1 (PRIMARY KEY)
+TABLE NAME: TEST_TABLE_3 :: COLUMN_NAME_2 : cln2
+TABLE NAME: TEST_TABLE_3 :: COLUMN_NAME_3 : cln3
+TABLE NAME: TEST_TABLE_3 :: COLUMN_NAME_4 : cln4
+TABLE NAME: TEST_TABLE_3 :: COLUMN_NAME_5 : cln5
+TABLE NAME: TEST_TABLE_3 :: COLUMN_NAME_6 : cln6
+

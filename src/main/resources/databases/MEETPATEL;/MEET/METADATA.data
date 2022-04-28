@@ -1,0 +1,5 @@
+TABLE^meet
+COLUMN^id^int
+COLUMN^varchar^name
+COLUMN^int^conatct
+COLUMN^varchar^email

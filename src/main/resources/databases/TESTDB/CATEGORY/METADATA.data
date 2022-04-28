@@ -1,0 +1,4 @@
+TABLE^category
+COLUMN^id^int
+COLUMN^name^string
+RELATION^one category belongs_to many users

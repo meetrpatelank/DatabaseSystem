@@ -1,0 +1,6 @@
+TABLE^manager
+COLUMN^managerId^int
+COLUMN^managerSalary^int
+COLUMN^deptId^int
+
+RELATION^many manager works_for many departments

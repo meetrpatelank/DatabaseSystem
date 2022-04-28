@@ -1,0 +1,10 @@
+****************************************************Entity Relationship Diagram for database TEST1;****************************************************
+
+Total number of relations/tables in the database TEST1; = 2
+
+TABLE NAME: INSERT :: COLUMN_NAME_1 : id (PRIMARY KEY)[Primary/Foreign Key relationship on Column: id with tables: TESTING, INSERT
+
+TABLE NAME: TESTING :: COLUMN_NAME_1 : id (PRIMARY KEY)[Primary/Foreign Key relationship on Column: id with tables: TESTING, INSERT
+TABLE NAME: TESTING :: COLUMN_NAME_2 : name
+TABLE NAME: TESTING :: COLUMN_NAME_3 : contact
+

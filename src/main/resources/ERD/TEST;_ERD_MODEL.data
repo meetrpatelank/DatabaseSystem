@@ -1,0 +1,8 @@
+****************************************************Entity Relationship Diagram for database TEST;****************************************************
+
+Total number of relations/tables in the database TEST; = 2
+
+TABLE NAME: ID :: COLUMN_NAME_1 : PersonID (PRIMARY KEY)
+TABLE NAME: ID :: COLUMN_NAME_2 : PersonName
+
+

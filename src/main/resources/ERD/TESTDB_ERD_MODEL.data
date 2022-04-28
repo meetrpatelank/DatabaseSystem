@@ -1,0 +1,26 @@
+****************************************************Entity Relationship Diagram for database TESTDB****************************************************
+
+Total number of relations/tables in the database TESTDB = 5
+
+TABLE NAME: CATEGORY :: COLUMN_NAME_1 : id (PRIMARY KEY) [Primary/Foreign Key relationship on Column: id among tables: CATEGORY, USER_ACCOUNTS, USERS
+TABLE NAME: CATEGORY :: COLUMN_NAME_2 : name
+Cardinality = 1:N from TABLE-CATEGORY to TABLE-USERS
+
+TABLE NAME: TEST_TABLE_2 :: COLUMN_NAME_1 : C1 (PRIMARY KEY) [Primary/Foreign Key relationship on Column: C1 among tables: TEST_TABLE_4, TEST_TABLE_2
+TABLE NAME: TEST_TABLE_2 :: COLUMN_NAME_2 : C2
+TABLE NAME: TEST_TABLE_2 :: COLUMN_NAME_3 : C3
+TABLE NAME: TEST_TABLE_2 :: COLUMN_NAME_4 : C4
+TABLE NAME: TEST_TABLE_2 :: COLUMN_NAME_5 : C5
+
+TABLE NAME: TEST_TABLE_4 :: COLUMN_NAME_1 : c1 (PRIMARY KEY) [Primary/Foreign Key relationship on Column: c1 among tables: TEST_TABLE_4, TEST_TABLE_2
+TABLE NAME: TEST_TABLE_4 :: COLUMN_NAME_2 : c2
+
+TABLE NAME: USERS :: COLUMN_NAME_1 : id (PRIMARY KEY) [Primary/Foreign Key relationship on Column: id among tables: CATEGORY, USER_ACCOUNTS, USERS
+TABLE NAME: USERS :: COLUMN_NAME_2 : name
+Cardinality = 1:N from TABLE-USERS to TABLE-USER_ACCOUNTS
+Cardinality = 1:N from TABLE-CATEGORY to TABLE-USERS
+
+TABLE NAME: USER_ACCOUNTS :: COLUMN_NAME_1 : id (PRIMARY KEY) [Primary/Foreign Key relationship on Column: id among tables: CATEGORY, USER_ACCOUNTS, USERS
+TABLE NAME: USER_ACCOUNTS :: COLUMN_NAME_2 : account_number
+Cardinality = 1:N from TABLE-USERS to TABLE-USER_ACCOUNTS
+

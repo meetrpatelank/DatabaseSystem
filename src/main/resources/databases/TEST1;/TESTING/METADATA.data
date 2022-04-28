@@ -1,0 +1,4 @@
+TABLE^testing
+COLUMN^id^int
+COLUMN^name^varchar
+COLUMN^contact^int

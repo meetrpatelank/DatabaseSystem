@@ -1,0 +1,5 @@
+TABLE^departments
+COLUMN^deptId^int
+COLUMN^deptName^text
+
+RELATION^many manager works_for many departments

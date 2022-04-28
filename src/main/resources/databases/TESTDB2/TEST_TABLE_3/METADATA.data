@@ -1,0 +1,7 @@
+TABLE^test_table_3
+COLUMN^cln1^text
+COLUMN^cln2^int
+COLUMN^cln3^real
+COLUMN^cln4^text
+COLUMN^cln5^int
+COLUMN^cln6^int
